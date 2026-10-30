@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-labelledby="t d">
+  <title id="t">LeonOS: Leon M. Njeru, Full-Stack &amp; DevOps Engineer</title>
+  <desc id="d">A Windows XP style desktop with a window introducing Leon M. Njeru, a Full-Stack and DevOps Engineer in Nairobi, Kenya.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f62d6"/><stop offset=".55" stop-color="#5aa0f0"/><stop offset="1" stop-color="#a9d4fb"/></linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6cbf32"/><stop offset=".5" stop-color="#3f8f1f"/><stop offset="1" stop-color="#2b6a14"/></linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0997ff"/><stop offset=".08" stop-color="#0053ee"/><stop offset=".4" stop-color="#0050ee"/><stop offset=".88" stop-color="#0066ff"/><stop offset=".95" stop-color="#005bff"/><stop offset="1" stop-color="#003dd7"/></linearGradient>
+    <linearGradient id="task" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3168d5"/><stop offset=".1" stop-color="#4993e6"/><stop offset=".5" stop-color="#2157d7"/><stop offset="1" stop-color="#1941a5"/></linearGradient>
+    <linearGradient id="start" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5eac56"/><stop offset=".5" stop-color="#3c873c"/><stop offset="1" stop-color="#2d6a2d"/></linearGradient>
+    <linearGradient id="tray" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c59b9"/><stop offset=".5" stop-color="#139ee9"/><stop offset="1" stop-color="#0d6fd0"/></linearGradient>
+    <radialGradient id="close" cx=".9" cy=".9" r="1"><stop offset="0" stop-color="#cc4600"/><stop offset=".55" stop-color="#dc6527"/><stop offset="1" stop-color="#f8d3b2"/></radialGradient>
+    <radialGradient id="btn" cx=".9" cy=".9" r="1"><stop offset="0" stop-color="#0054e9"/><stop offset=".55" stop-color="#2263d5"/><stop offset="1" stop-color="#a3bbec"/></radialGradient>
+    <clipPath id="typing"><rect x="96" y="160" width="0" height="22"><animate attributeName="width" dur="2.6s" begin="0.6s" fill="freeze" calcMode="discrete" values="0;12;24;36;48;60;72;84;96;108;120;132;144;156;168;180;192;204;216;228;240;252;264;276;288;300;312;324;336;348;360" keyTimes="0.000;0.033;0.067;0.100;0.133;0.167;0.200;0.233;0.267;0.300;0.333;0.367;0.400;0.433;0.467;0.500;0.533;0.567;0.600;0.633;0.667;0.700;0.733;0.767;0.800;0.833;0.867;0.900;0.933;0.967;1.000"/></rect></clipPath>
+    <style>
+      text { font-family: Tahoma, "Segoe UI", Verdana, "DejaVu Sans", sans-serif; }
+      .label { fill: #fff; font-size: 11px; paint-order: stroke; stroke: rgba(0,0,0,.55); stroke-width: 2px; }
+      .mono { font-family: "Lucida Console", Consolas, "DejaVu Sans Mono", monospace; }
+      .cursor { animation: blink 1s step-end infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .cloud { animation: drift 40s linear infinite alternate; }
+      @keyframes drift { to { transform: translateX(40px); } }
+    </style>
+  </defs>
+
+  <!-- Bliss-style wallpaper -->
+  <rect width="840" height="300" fill="url(#sky)"/>
+  <g class="cloud" fill="#fff" opacity=".85">
+    <ellipse cx="120" cy="40" rx="60" ry="14"/><ellipse cx="160" cy="32" rx="40" ry="12"/>
+    <ellipse cx="640" cy="55" rx="70" ry="15"/><ellipse cx="690" cy="46" rx="44" ry="12"/>
+    <ellipse cx="780" cy="120" rx="50" ry="10" opacity=".7"/>
+  </g>
+  <path d="M0 205 C 170 150, 420 140, 840 190 L840 300 L0 300 Z" fill="url(#hill)"/>
+  <path d="M0 250 C 260 215, 560 225, 840 240 L840 300 L0 300 Z" fill="#2f7a17" opacity=".55"/>
+
+  <!-- Desktop icons -->
+  <g transform="translate(22 22)">
+    <path d="M2 8a2 2 0 0 1 2-2h9l3 3h17a2 2 0 0 1 2 2v18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z" fill="#f5cd5d" stroke="#b38418"/>
+    <path d="M1 14h34l-2 16H3z" fill="#fbd56b" stroke="#b38418"/>
+    <text x="18" y="48" text-anchor="middle" class="label">My Projects</text>
+  </g>
+  <g transform="translate(22 84)">
+    <path d="M8 2h15l7 7v23H8z" fill="#fff" stroke="#7b8aa6"/>
+    <rect x="4" y="18" width="20" height="9" rx="1.5" fill="#d7261e"/>
+    <text x="14" y="25" font-size="6.5" font-weight="bold" fill="#fff" text-anchor="middle">PDF</text>
+    <text x="18" y="48" text-anchor="middle" class="label">Resume.pdf</text>
+  </g>
+  <g transform="translate(22 146)">
+    <rect x="3" y="4" width="30" height="24" rx="2" fill="#000" stroke="#9aa7bc"/>
+    <rect x="3" y="4" width="30" height="5" fill="#2f6be0"/>
+    <text x="7" y="21" class="mono" font-size="8" fill="#c0c0c0">C:\&gt;_</text>
+    <text x="18" y="46" text-anchor="middle" class="label">DevShell</text>
+  </g>
+
+  <!-- Window -->
+  <g transform="translate(150 22)">
+    <rect x="0" y="0" width="560" height="216" rx="8" fill="#0831d9"/>
+    <rect x="3" y="30" width="554" height="183" fill="#ece9d8"/>
+    <path d="M0 8a8 8 0 0 1 8-8h544a8 8 0 0 1 8 8v22H0z" fill="url(#title)"/>
+    <rect x="9" y="8" width="14" height="14" rx="2" fill="#f78a1d"/><rect x="11" y="10" width="10" height="10" rx="1" fill="#fff" opacity=".35"/>
+    <text x="30" y="20" font-family="'Trebuchet MS', Tahoma, sans-serif" font-size="13" font-weight="bold" fill="#fff">LeonOS - Welcome</text>
+    <g transform="translate(486 5)">
+      <rect width="20" height="20" rx="3" fill="url(#btn)" stroke="#fff"/><rect x="5" y="13" width="8" height="2.5" fill="#fff"/>
+      <rect x="23" width="20" height="20" rx="3" fill="url(#btn)" stroke="#fff"/><rect x="28" y="5" width="10" height="10" fill="none" stroke="#fff" stroke-width="2"/>
+      <rect x="46" width="20" height="20" rx="3" fill="url(#close)" stroke="#fff"/><path d="M51 5l10 10M61 5L51 15" stroke="#fff" stroke-width="2.2"/>
+    </g>
+    <rect x="12" y="40" width="536" height="164" fill="#fff" stroke="#aca899"/>
+    <text x="34" y="86" font-family="'Trebuchet MS', Tahoma, sans-serif" font-size="34" font-weight="bold" fill="#0a246a">Leon M. Njeru</text>
+    <text x="36" y="112" font-size="15" fill="#333">Full-Stack &amp; DevOps Engineer  ·  Nairobi, Kenya</text>
+    <text x="36" y="136" font-size="12.5" fill="#5f6b7a">Spring Boot · Python · React / Next.js · Docker · Nginx · Linux · GitLab CI/CD</text>
+    <line x1="36" y1="150" x2="524" y2="150" stroke="#e1ded1"/>
+    <rect x="24" y="158" width="512" height="26" rx="2" fill="#0c0c0c"/>
+    <text x="34" y="176" class="mono" font-size="13" fill="#ffffff">C:\Leon&gt;</text>
+    <text x="98" y="176" class="mono" font-size="13" fill="#4cd964" clip-path="url(#typing)">start "My Projects" &amp;&amp; deploy --zero-downtime</text>
+    <rect class="cursor" x="458" y="165" width="8" height="14" fill="#4cd964"/>
+  </g>
+
+  <!-- Taskbar -->
+  <rect y="270" width="840" height="30" fill="url(#task)"/>
+  <path d="M0 271h92a14 14 0 0 1 14 14v0a14 14 0 0 1-14 14H0z" fill="url(#start)"/>
+  <g transform="translate(10 278)">
+    <rect width="7" height="7" fill="#f35325"/><rect x="8" width="7" height="7" fill="#81bc06"/>
+    <rect y="8" width="7" height="7" fill="#05a6f0"/><rect x="8" y="8" width="7" height="7" fill="#ffba08"/>
+  </g>
+  <text x="32" y="291" font-family="'Trebuchet MS', Tahoma, sans-serif" font-size="17" font-style="italic" font-weight="bold" fill="#fff">start</text>
+  <rect x="118" y="274" width="160" height="22" rx="3" fill="#1e52b7" stroke="#11399a"/>
+  <rect x="126" y="279" width="12" height="12" rx="2" fill="#f78a1d"/>
+  <text x="144" y="289" font-size="11" fill="#fff">LeonOS - Welcome</text>
+  <rect x="662" y="270" width="178" height="30" fill="url(#tray)"/>
+  <circle cx="676" cy="285" r="5" fill="#35d43c" stroke="#fff" stroke-width="1"/>
+  <text x="688" y="289" font-size="11" fill="#fff">Open to new roles · EAT</text>
+</svg>

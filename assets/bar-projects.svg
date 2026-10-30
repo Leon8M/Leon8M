@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="34" viewBox="0 0 840 34" role="img" aria-label="C:\Documents and Settings\Leon\My Projects">
+<defs>
+<linearGradient id="t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0997ff"/><stop offset=".08" stop-color="#0053ee"/><stop offset=".4" stop-color="#0050ee"/><stop offset=".88" stop-color="#0066ff"/><stop offset=".95" stop-color="#005bff"/><stop offset="1" stop-color="#003dd7"/></linearGradient>
+<radialGradient id="b" cx=".9" cy=".9" r="1"><stop offset="0" stop-color="#0054e9"/><stop offset=".55" stop-color="#2263d5"/><stop offset="1" stop-color="#a3bbec"/></radialGradient>
+<radialGradient id="c" cx=".9" cy=".9" r="1"><stop offset="0" stop-color="#cc4600"/><stop offset=".55" stop-color="#dc6527"/><stop offset="1" stop-color="#f8d3b2"/></radialGradient>
+</defs>
+<path d="M0 8a8 8 0 0 1 8-8h824a8 8 0 0 1 8 8v26H0z" fill="url(#t)"/>
+<g transform="translate(9 8)"><path d="M1 4a1 1 0 0 1 1-1h5l2 2h7a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z" fill="#f5cd5d" stroke="#b38418"/><path d="M1 8h16l-1 8H2z" fill="#fbd56b" stroke="#b38418"/></g>
+<text x="34" y="22" font-family="'Trebuchet MS', Tahoma, 'DejaVu Sans', sans-serif" font-size="14" font-weight="bold" fill="#fff" stroke="#0a1883" stroke-width=".4">C:\Documents and Settings\Leon\My Projects</text>
+<g transform="translate(762 6)">
+<rect width="21" height="21" rx="3" fill="url(#b)" stroke="#fff"/><rect x="5" y="14" width="9" height="2.6" fill="#fff"/>
+<rect x="24" width="21" height="21" rx="3" fill="url(#b)" stroke="#fff"/><rect x="29" y="5" width="11" height="11" fill="none" stroke="#fff" stroke-width="2"/>
+<rect x="48" width="21" height="21" rx="3" fill="url(#c)" stroke="#fff"/><path d="M53.5 5.5l10 10M63.5 5.5l-10 10" stroke="#fff" stroke-width="2.2"/>
+</g>
+</svg>
